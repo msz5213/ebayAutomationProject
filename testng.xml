@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test
+		thread-count="5"
+		name="Test"
+	>
+		<parameter
+			name="userName"
+			value="shiblee_1986@outlook.com" />
+		<parameter
+			name="passWord"
+			value="123$abcZY" />
+		<parameter
+			name="item"
+			value="iPhone" />
+		<classes>
+			<class name="testcases.ValidateSearchBox">
+				<methods>
+					<include name="validateSearchBox" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateSearchButton">
+				<methods>
+					<include name="validateSearchButton" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateSearching">
+				<methods>
+					<include name="validateSearchFunctionality" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateCartButton">
+				<methods>
+					<include name="validateCartButton" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateCartPage">
+				<methods>
+					<include name="validateCartPage" />
+				</methods>
+			</class>
+			<class name="testcases.ItemCategoryDropDown">
+				<methods>
+					<include name="getItemCategoryDropDown" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateSaveThisSearchAndSaveButton">
+				<methods>
+					<include name="validateSaveThisSearch" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateSavedSearch">
+				<methods>
+					<include name="validateSaveSearch" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateItemsDropDownVsItemList">
+				<methods>
+					<include name="validateItemsDropDownVsItemList" />
+				</methods>
+			</class>
+			<class name="testcases.ValidateItemCatDdLvsFile">
+				<methods>
+					<include name="validateItemsCatDdlvsListFile" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

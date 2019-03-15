@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="passWord" value="123$abcZY"/>
+    <parameter name="item" value="iPhone"/>
+    <parameter name="userName" value="shiblee_1986@outlook.com"/>
+    <classes>
+      <class name="testcases.ValidateItemCatDdLvsFile">
+        <methods>
+          <include name="getBrowserAndLogin"/>
+          <include name="getSetup"/>
+          <include name="segregateTests"/>
+          <include name="endTestCases"/>
+          <include name="validateItemsCatDdlvsListFile"/>
+        </methods>
+      </class> <!-- testcases.ValidateItemCatDdLvsFile -->
+      <class name="testcases.ValidateItemsDropDownVsItemList">
+        <methods>
+          <include name="getBrowserAndLogin"/>
+          <include name="validateItemsDropDownVsItemList"/>
+          <include name="getSetup"/>
+          <include name="segregateTests"/>
+          <include name="endTestCases"/>
+        </methods>
+      </class> <!-- testcases.ValidateItemsDropDownVsItemList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
