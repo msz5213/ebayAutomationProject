@@ -33,6 +33,8 @@ public class ObjectRepo {
 	public static final String searchBoxPass;
 
 	public static final String searchBoxFail;
+	
+	public static final String extentReport;
 
 	public static final List<String> createItemCatDdList() {
 
@@ -80,6 +82,7 @@ public class ObjectRepo {
 	public static final String savedTextFail;
 
 	static {
+		extentReport = "/StoreReport.html";
 		savedTextFail = "Saved Button did NOT appear. VERIFICATION FAILED!";
 		savedTextPass = "Saved Button Appeared! VERIFICATION PASSED!";
 		saveThisSearchFail = "Save this search button did NOT appear. VERIFICATION FAILED!";

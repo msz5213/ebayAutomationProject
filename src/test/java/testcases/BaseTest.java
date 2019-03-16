@@ -1,10 +1,7 @@
 package testcases;
 
-import static testpages.ObjectRepo.osName;
-import static testpages.ObjectRepo.testSegregation;
-import static testpages.ObjectRepo.urlValidationFailed;
-import static testpages.ObjectRepo.urlValidationPassed;
-
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -14,15 +11,37 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import testpages.LoginPage;
 import testpages.ObjectRepo;
+
+import static testpages.ObjectRepo.*;
+
 
 public class BaseTest {
 
 	public WebDriver driver;
+	
+	public ExtentReports report;
+	public ExtentTest logger;
+	public static ExtentHtmlReporter htmlReporter;
 
 	@BeforeClass
 	public void getSetup() {
+
+		htmlReporter = new ExtentHtmlReporter(userDir + extentReport);
+
+		htmlReporter.config().setTheme(Theme.DARK);
+
+		htmlReporter.config().setDocumentTitle("ebayDocument");
+
+		htmlReporter.config().setReportName("ebayReport");
+
+		report = new ExtentReports();
+
+		report.attachReporter(htmlReporter);
 
 		String os = System.getProperty(osName).toLowerCase();
 
@@ -31,6 +50,7 @@ public class BaseTest {
 		String macPath = userDir + ObjectRepo.chromeMacDriver;
 
 		String winPath = userDir + ObjectRepo.chromeWinDriver;
+		
 
 		if (os.contains(ObjectRepo.os)) {
 			System.setProperty(ObjectRepo.webChrome, macPath);
@@ -45,6 +65,8 @@ public class BaseTest {
 	@BeforeMethod
 	@Parameters({ "userName", "passWord" })
 	public void getBrowserAndLogin(String userName, String passWord) {
+		
+		logger = report.createTest("Passing Test");
 
 		driver.navigate().to(ObjectRepo.expectedURL);
 		String actualURL = driver.getCurrentUrl();

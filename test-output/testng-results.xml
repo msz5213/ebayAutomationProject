@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="9" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="107630" started-at="2019-03-15T17:08:45Z" finished-at="2019-03-15T17:10:32Z">
+  <suite name="Suite" duration-ms="88070" started-at="2019-03-16T02:48:11Z" finished-at="2019-03-16T02:49:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="107630" started-at="2019-03-15T17:08:45Z" finished-at="2019-03-15T17:10:32Z">
+    <test name="Test" duration-ms="88070" started-at="2019-03-16T02:48:11Z" finished-at="2019-03-16T02:49:39Z">
       <class name="testcases.ValidateSearchBox">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSearchBox@1da51a35]" name="getSetup" is-config="true" duration-ms="2993" started-at="2019-03-15T17:08:45Z" finished-at="2019-03-15T17:08:48Z">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSearchBox@40709f9]" name="getSetup" is-config="true" duration-ms="3233" started-at="2019-03-16T02:48:11Z" finished-at="2019-03-16T02:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSearchBox@1da51a35]" name="getBrowserAndLogin" is-config="true" duration-ms="5929" started-at="2019-03-15T17:08:48Z" finished-at="2019-03-15T17:08:54Z">
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSearchBox@40709f9]" name="getBrowserAndLogin" is-config="true" duration-ms="5587" started-at="2019-03-16T02:48:14Z" finished-at="2019-03-16T02:48:20Z">
           <params>
             <param index="0">
               <value>
@@ -27,25 +27,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateSearchBox()[pri:0, instance:testcases.ValidateSearchBox@1da51a35]" name="validateSearchBox" duration-ms="171" started-at="2019-03-15T17:08:54Z" finished-at="2019-03-15T17:08:54Z">
+        <test-method status="PASS" signature="validateSearchBox()[pri:0, instance:testcases.ValidateSearchBox@40709f9]" name="validateSearchBox" duration-ms="573" started-at="2019-03-16T02:48:20Z" finished-at="2019-03-16T02:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchBox -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSearchBox@1da51a35]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:08:54Z" finished-at="2019-03-15T17:08:54Z">
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSearchBox@40709f9]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:48:20Z" finished-at="2019-03-16T02:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segregateTests -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSearchBox@1da51a35]" name="endTestCases" is-config="true" duration-ms="702" started-at="2019-03-15T17:08:54Z" finished-at="2019-03-15T17:08:55Z">
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSearchBox@40709f9]" name="endTestCases" is-config="true" duration-ms="257" started-at="2019-03-16T02:48:20Z" finished-at="2019-03-16T02:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCases -->
       </class> <!-- testcases.ValidateSearchBox -->
       <class name="testcases.ValidateCartButton">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateCartButton@44a3ec6b]" name="getSetup" is-config="true" duration-ms="2247" started-at="2019-03-15T17:10:03Z" finished-at="2019-03-15T17:10:05Z">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateCartButton@76d7881e]" name="getSetup" is-config="true" duration-ms="1047" started-at="2019-03-16T02:49:16Z" finished-at="2019-03-16T02:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateCartButton@44a3ec6b]" name="getBrowserAndLogin" is-config="true" duration-ms="4878" started-at="2019-03-15T17:10:05Z" finished-at="2019-03-15T17:10:10Z">
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateCartButton@76d7881e]" name="getBrowserAndLogin" is-config="true" duration-ms="5521" started-at="2019-03-16T02:49:17Z" finished-at="2019-03-16T02:49:23Z">
           <params>
             <param index="0">
               <value>
@@ -61,129 +61,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateCartButton()[pri:0, instance:testcases.ValidateCartButton@44a3ec6b]" name="validateCartButton" duration-ms="96" started-at="2019-03-15T17:10:10Z" finished-at="2019-03-15T17:10:10Z">
+        <test-method status="PASS" signature="validateCartButton()[pri:0, instance:testcases.ValidateCartButton@76d7881e]" name="validateCartButton" duration-ms="1434" started-at="2019-03-16T02:49:23Z" finished-at="2019-03-16T02:49:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartButton -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateCartButton@44a3ec6b]" name="segregateTests" is-config="true" duration-ms="1" started-at="2019-03-15T17:10:10Z" finished-at="2019-03-15T17:10:10Z">
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateCartButton@76d7881e]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:49:24Z" finished-at="2019-03-16T02:49:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segregateTests -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateCartButton@44a3ec6b]" name="endTestCases" is-config="true" duration-ms="679" started-at="2019-03-15T17:10:10Z" finished-at="2019-03-15T17:10:11Z">
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateCartButton@76d7881e]" name="endTestCases" is-config="true" duration-ms="334" started-at="2019-03-16T02:49:24Z" finished-at="2019-03-16T02:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCases -->
       </class> <!-- testcases.ValidateCartButton -->
-      <class name="testcases.ValidateItemsDropDownVsItemList">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@15b3e5b]" name="getSetup" is-config="true" duration-ms="2196" started-at="2019-03-15T17:09:52Z" finished-at="2019-03-15T17:09:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@15b3e5b]" name="getBrowserAndLogin" is-config="true" duration-ms="5583" started-at="2019-03-15T17:09:54Z" finished-at="2019-03-15T17:10:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shiblee_1986@outlook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123$abcZY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="FAIL" signature="validateItemsDropDownVsItemList()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@15b3e5b]" name="validateItemsDropDownVsItemList" duration-ms="2" started-at="2019-03-15T17:10:00Z" finished-at="2019-03-15T17:10:00Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
-at com.sun.proxy.$Proxy13.iterator(Unknown Source)
-at testcases.ItemCategoryDropDown.getItemCategoryDropDown(ItemCategoryDropDown.java:20)
-at testcases.ValidateItemsDropDownVsItemList.validateItemsDropDownVsItemList(ValidateItemsDropDownVsItemList.java:13)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateItemsDropDownVsItemList -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@15b3e5b]" name="endTestCases" is-config="true" duration-ms="2947" started-at="2019-03-15T17:10:00Z" finished-at="2019-03-15T17:10:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestCases -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@15b3e5b]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:10:00Z" finished-at="2019-03-15T17:10:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- segregateTests -->
-      </class> <!-- testcases.ValidateItemsDropDownVsItemList -->
-      <class name="testcases.ValidateSearchButton">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSearchButton@16022d9d]" name="getSetup" is-config="true" duration-ms="2247" started-at="2019-03-15T17:09:10Z" finished-at="2019-03-15T17:09:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSearchButton@16022d9d]" name="getBrowserAndLogin" is-config="true" duration-ms="5715" started-at="2019-03-15T17:09:12Z" finished-at="2019-03-15T17:09:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shiblee_1986@outlook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123$abcZY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateSearchButton()[pri:0, instance:testcases.ValidateSearchButton@16022d9d]" name="validateSearchButton" duration-ms="100" started-at="2019-03-15T17:09:18Z" finished-at="2019-03-15T17:09:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSearchButton -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSearchButton@16022d9d]" name="endTestCases" is-config="true" duration-ms="2915" started-at="2019-03-15T17:09:18Z" finished-at="2019-03-15T17:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestCases -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSearchButton@16022d9d]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:09:18Z" finished-at="2019-03-15T17:09:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- segregateTests -->
-      </class> <!-- testcases.ValidateSearchButton -->
       <class name="testcases.ValidateSavedSearch">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSavedSearch@5a4041cc]" name="getSetup" is-config="true" duration-ms="2222" started-at="2019-03-15T17:09:21Z" finished-at="2019-03-15T17:09:23Z">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSavedSearch@7d42542]" name="getSetup" is-config="true" duration-ms="1121" started-at="2019-03-16T02:48:43Z" finished-at="2019-03-16T02:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSavedSearch@5a4041cc]" name="getBrowserAndLogin" is-config="true" duration-ms="5300" started-at="2019-03-15T17:09:23Z" finished-at="2019-03-15T17:09:29Z">
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSavedSearch@7d42542]" name="getBrowserAndLogin" is-config="true" duration-ms="7291" started-at="2019-03-16T02:48:44Z" finished-at="2019-03-16T02:48:51Z">
           <params>
             <param index="0">
               <value>
@@ -199,7 +95,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateSaveSearch(java.lang.String)[pri:0, instance:testcases.ValidateSavedSearch@5a4041cc]" name="validateSaveSearch" duration-ms="4312" started-at="2019-03-15T17:09:29Z" finished-at="2019-03-15T17:09:33Z">
+        <test-method status="PASS" signature="validateSaveSearch(java.lang.String)[pri:0, instance:testcases.ValidateSavedSearch@7d42542]" name="validateSaveSearch" duration-ms="4618" started-at="2019-03-16T02:48:51Z" finished-at="2019-03-16T02:48:56Z">
           <params>
             <param index="0">
               <value>
@@ -210,21 +106,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSaveSearch -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSavedSearch@5a4041cc]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:09:33Z" finished-at="2019-03-15T17:09:33Z">
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSavedSearch@7d42542]" name="segregateTests" is-config="true" duration-ms="1" started-at="2019-03-16T02:48:56Z" finished-at="2019-03-16T02:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segregateTests -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSavedSearch@5a4041cc]" name="endTestCases" is-config="true" duration-ms="2740" started-at="2019-03-15T17:09:33Z" finished-at="2019-03-15T17:09:36Z">
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSavedSearch@7d42542]" name="endTestCases" is-config="true" duration-ms="309" started-at="2019-03-16T02:48:56Z" finished-at="2019-03-16T02:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCases -->
       </class> <!-- testcases.ValidateSavedSearch -->
-      <class name="testcases.ValidateSearching">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSearching@7e9a5fbe]" name="getSetup" is-config="true" duration-ms="2221" started-at="2019-03-15T17:09:36Z" finished-at="2019-03-15T17:09:38Z">
+      <class name="testcases.ValidateItemsDropDownVsItemList">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@4d09cade]" name="getSetup" is-config="true" duration-ms="1198" started-at="2019-03-16T02:49:09Z" finished-at="2019-03-16T02:49:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSearching@7e9a5fbe]" name="getBrowserAndLogin" is-config="true" duration-ms="5381" started-at="2019-03-15T17:09:38Z" finished-at="2019-03-15T17:09:43Z">
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@4d09cade]" name="getBrowserAndLogin" is-config="true" duration-ms="5400" started-at="2019-03-16T02:49:11Z" finished-at="2019-03-16T02:49:16Z">
           <params>
             <param index="0">
               <value>
@@ -240,48 +136,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateSearchFunctionality(java.lang.String)[pri:0, instance:testcases.ValidateSearching@7e9a5fbe]" name="validateSearchFunctionality" duration-ms="6019" started-at="2019-03-15T17:09:43Z" finished-at="2019-03-15T17:09:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iPhone]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSearchFunctionality -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSearching@7e9a5fbe]" name="endTestCases" is-config="true" duration-ms="2736" started-at="2019-03-15T17:09:49Z" finished-at="2019-03-15T17:09:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestCases -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSearching@7e9a5fbe]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:09:49Z" finished-at="2019-03-15T17:09:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- segregateTests -->
-      </class> <!-- testcases.ValidateSearching -->
-      <class name="testcases.ValidateItemCatDdLvsFile">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@61ca2dfa]" name="getSetup" is-config="true" duration-ms="2224" started-at="2019-03-15T17:10:11Z" finished-at="2019-03-15T17:10:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateItemCatDdLvsFile@61ca2dfa]" name="getBrowserAndLogin" is-config="true" duration-ms="6401" started-at="2019-03-15T17:10:13Z" finished-at="2019-03-15T17:10:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shiblee_1986@outlook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123$abcZY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="FAIL" signature="validateItemsCatDdlvsListFile()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@61ca2dfa]" name="validateItemsCatDdlvsListFile" duration-ms="4" started-at="2019-03-15T17:10:19Z" finished-at="2019-03-15T17:10:19Z">
+        <test-method status="FAIL" signature="validateItemsDropDownVsItemList()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@4d09cade]" name="validateItemsDropDownVsItemList" duration-ms="2" started-at="2019-03-16T02:49:16Z" finished-at="2019-03-16T02:49:16Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -289,15 +144,15 @@ at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(De
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
 at com.sun.proxy.$Proxy13.iterator(Unknown Source)
 at testcases.ItemCategoryDropDown.getItemCategoryDropDown(ItemCategoryDropDown.java:20)
-at testcases.ValidateItemCatDdLvsFile.validateItemsCatDdlvsListFile(ValidateItemCatDdLvsFile.java:17)
+at testcases.ValidateItemsDropDownVsItemList.validateItemsDropDownVsItemList(ValidateItemsDropDownVsItemList.java:13)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -312,7 +167,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
@@ -320,22 +175,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateItemsCatDdlvsListFile -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@61ca2dfa]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:10:19Z" finished-at="2019-03-15T17:10:19Z">
+        </test-method> <!-- validateItemsDropDownVsItemList -->
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@4d09cade]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:49:16Z" finished-at="2019-03-16T02:49:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segregateTests -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@61ca2dfa]" name="endTestCases" is-config="true" duration-ms="2944" started-at="2019-03-15T17:10:19Z" finished-at="2019-03-15T17:10:22Z">
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateItemsDropDownVsItemList@4d09cade]" name="endTestCases" is-config="true" duration-ms="323" started-at="2019-03-16T02:49:16Z" finished-at="2019-03-16T02:49:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCases -->
-      </class> <!-- testcases.ValidateItemCatDdLvsFile -->
-      <class name="testcases.ValidateSaveThisSearchAndSaveButton">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@768b970c]" name="getSetup" is-config="true" duration-ms="2234" started-at="2019-03-15T17:08:55Z" finished-at="2019-03-15T17:08:57Z">
+      </class> <!-- testcases.ValidateItemsDropDownVsItemList -->
+      <class name="testcases.ValidateSearchButton">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSearchButton@6b1b19cf]" name="getSetup" is-config="true" duration-ms="1369" started-at="2019-03-16T02:48:36Z" finished-at="2019-03-16T02:48:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@768b970c]" name="getBrowserAndLogin" is-config="true" duration-ms="5172" started-at="2019-03-15T17:08:57Z" finished-at="2019-03-15T17:09:02Z">
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSearchButton@6b1b19cf]" name="getBrowserAndLogin" is-config="true" duration-ms="5233" started-at="2019-03-16T02:48:37Z" finished-at="2019-03-16T02:48:42Z">
           <params>
             <param index="0">
               <value>
@@ -351,7 +206,152 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateSaveThisSearch(java.lang.String)[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@768b970c]" name="validateSaveThisSearch" duration-ms="5354" started-at="2019-03-15T17:09:02Z" finished-at="2019-03-15T17:09:07Z">
+        <test-method status="PASS" signature="validateSearchButton()[pri:0, instance:testcases.ValidateSearchButton@6b1b19cf]" name="validateSearchButton" duration-ms="75" started-at="2019-03-16T02:48:42Z" finished-at="2019-03-16T02:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButton -->
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSearchButton@6b1b19cf]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:48:42Z" finished-at="2019-03-16T02:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segregateTests -->
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSearchButton@6b1b19cf]" name="endTestCases" is-config="true" duration-ms="138" started-at="2019-03-16T02:48:42Z" finished-at="2019-03-16T02:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCases -->
+      </class> <!-- testcases.ValidateSearchButton -->
+      <class name="testcases.ValidateSearching">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSearching@6393bf8b]" name="getSetup" is-config="true" duration-ms="1161" started-at="2019-03-16T02:48:56Z" finished-at="2019-03-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSearching@6393bf8b]" name="getBrowserAndLogin" is-config="true" duration-ms="5491" started-at="2019-03-16T02:48:57Z" finished-at="2019-03-16T02:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shiblee_1986@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123$abcZY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserAndLogin -->
+        <test-method status="PASS" signature="validateSearchFunctionality(java.lang.String)[pri:0, instance:testcases.ValidateSearching@6393bf8b]" name="validateSearchFunctionality" duration-ms="6490" started-at="2019-03-16T02:49:03Z" finished-at="2019-03-16T02:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunctionality -->
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSearching@6393bf8b]" name="segregateTests" is-config="true" duration-ms="1" started-at="2019-03-16T02:49:09Z" finished-at="2019-03-16T02:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segregateTests -->
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSearching@6393bf8b]" name="endTestCases" is-config="true" duration-ms="322" started-at="2019-03-16T02:49:09Z" finished-at="2019-03-16T02:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCases -->
+      </class> <!-- testcases.ValidateSearching -->
+      <class name="testcases.ValidateItemCatDdLvsFile">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@1f87607c]" name="getSetup" is-config="true" duration-ms="1129" started-at="2019-03-16T02:49:25Z" finished-at="2019-03-16T02:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateItemCatDdLvsFile@1f87607c]" name="getBrowserAndLogin" is-config="true" duration-ms="4836" started-at="2019-03-16T02:49:26Z" finished-at="2019-03-16T02:49:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shiblee_1986@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123$abcZY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserAndLogin -->
+        <test-method status="FAIL" signature="validateItemsCatDdlvsListFile()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@1f87607c]" name="validateItemsCatDdlvsListFile" duration-ms="6" started-at="2019-03-16T02:49:31Z" finished-at="2019-03-16T02:49:31Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+at com.sun.proxy.$Proxy13.iterator(Unknown Source)
+at testcases.ItemCategoryDropDown.getItemCategoryDropDown(ItemCategoryDropDown.java:20)
+at testcases.ValidateItemCatDdLvsFile.validateItemsCatDdlvsListFile(ValidateItemCatDdLvsFile.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsCatDdlvsListFile -->
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@1f87607c]" name="endTestCases" is-config="true" duration-ms="303" started-at="2019-03-16T02:49:31Z" finished-at="2019-03-16T02:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCases -->
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateItemCatDdLvsFile@1f87607c]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:49:31Z" finished-at="2019-03-16T02:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segregateTests -->
+      </class> <!-- testcases.ValidateItemCatDdLvsFile -->
+      <class name="testcases.ValidateSaveThisSearchAndSaveButton">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@7945b206]" name="getSetup" is-config="true" duration-ms="1115" started-at="2019-03-16T02:48:21Z" finished-at="2019-03-16T02:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@7945b206]" name="getBrowserAndLogin" is-config="true" duration-ms="5615" started-at="2019-03-16T02:48:22Z" finished-at="2019-03-16T02:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shiblee_1986@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123$abcZY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserAndLogin -->
+        <test-method status="PASS" signature="validateSaveThisSearch(java.lang.String)[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@7945b206]" name="validateSaveThisSearch" duration-ms="8029" started-at="2019-03-16T02:48:27Z" finished-at="2019-03-16T02:48:35Z">
           <params>
             <param index="0">
               <value>
@@ -362,21 +362,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSaveThisSearch -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@768b970c]" name="endTestCases" is-config="true" duration-ms="2722" started-at="2019-03-15T17:09:07Z" finished-at="2019-03-15T17:09:10Z">
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@7945b206]" name="endTestCases" is-config="true" duration-ms="315" started-at="2019-03-16T02:48:35Z" finished-at="2019-03-16T02:48:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCases -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@768b970c]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:09:07Z" finished-at="2019-03-15T17:09:07Z">
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateSaveThisSearchAndSaveButton@7945b206]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:48:35Z" finished-at="2019-03-16T02:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segregateTests -->
       </class> <!-- testcases.ValidateSaveThisSearchAndSaveButton -->
       <class name="testcases.ValidateCartPage">
-        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateCartPage@71623278]" name="getSetup" is-config="true" duration-ms="2261" started-at="2019-03-15T17:10:22Z" finished-at="2019-03-15T17:10:25Z">
+        <test-method status="PASS" signature="getSetup()[pri:0, instance:testcases.ValidateCartPage@4aa31ffc]" name="getSetup" is-config="true" duration-ms="1087" started-at="2019-03-16T02:49:31Z" finished-at="2019-03-16T02:49:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSetup -->
-        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateCartPage@71623278]" name="getBrowserAndLogin" is-config="true" duration-ms="4629" started-at="2019-03-15T17:10:25Z" finished-at="2019-03-15T17:10:29Z">
+        <test-method status="PASS" signature="getBrowserAndLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.ValidateCartPage@4aa31ffc]" name="getBrowserAndLogin" is-config="true" duration-ms="4934" started-at="2019-03-16T02:49:32Z" finished-at="2019-03-16T02:49:37Z">
           <params>
             <param index="0">
               <value>
@@ -392,18 +392,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserAndLogin -->
-        <test-method status="PASS" signature="validateCartPage()[pri:0, instance:testcases.ValidateCartPage@71623278]" name="validateCartPage" duration-ms="2563" started-at="2019-03-15T17:10:29Z" finished-at="2019-03-15T17:10:32Z">
+        <test-method status="PASS" signature="validateCartPage()[pri:0, instance:testcases.ValidateCartPage@4aa31ffc]" name="validateCartPage" duration-ms="1840" started-at="2019-03-16T02:49:37Z" finished-at="2019-03-16T02:49:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartPage -->
-        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateCartPage@71623278]" name="endTestCases" is-config="true" duration-ms="747" started-at="2019-03-15T17:10:32Z" finished-at="2019-03-15T17:10:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestCases -->
-        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateCartPage@71623278]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-15T17:10:32Z" finished-at="2019-03-15T17:10:32Z">
+        <test-method status="PASS" signature="segregateTests()[pri:0, instance:testcases.ValidateCartPage@4aa31ffc]" name="segregateTests" is-config="true" duration-ms="0" started-at="2019-03-16T02:49:39Z" finished-at="2019-03-16T02:49:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segregateTests -->
+        <test-method status="PASS" signature="endTestCases()[pri:0, instance:testcases.ValidateCartPage@4aa31ffc]" name="endTestCases" is-config="true" duration-ms="244" started-at="2019-03-16T02:49:39Z" finished-at="2019-03-16T02:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCases -->
       </class> <!-- testcases.ValidateCartPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
